@@ -1,197 +1,324 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MD SHAMIM GAZI | Academic Profile</title>
-  <meta name="description" content="Academic profile and research portfolio of MD. Shamim Gazi, veterinary researcher.">
-
-  <style>
-    * {
-      box-sizing: border-box;
-      scroll-behavior: smooth;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, sans-serif;
-      color: #263445;
-      background: #f5f7fa;
-      line-height: 1.7;
-    }
-
-    header {
-      background: #12304a;
-      color: white;
-      padding: 55px 20px;
-      text-align: center;
-    }
-
-    header h1 {
-      font-size: 38px;
-      margin: 0;
-    }
-
-    header p {
-      color: #d7e5f0;
-    }
-
-    nav {
-      background: #ffffff;
-      padding: 14px;
-      text-align: center;
-      position: sticky;
-      top: 0;
-      box-shadow: 0 2px 6px #ddd;
-    }
-
-    nav a {
-      color: #12304a;
-      text-decoration: none;
-      margin: 0 12px;
-      font-weight: bold;
-    }
-
-    main {
-      max-width: 950px;
-      margin: 30px auto;
-      padding: 0 20px;
-    }
-
-    section {
-      background: white;
-      margin-bottom: 22px;
-      padding: 28px;
-      border-radius: 10px;
-      box-shadow: 0 2px 8px #e4e8ed;
-    }
-
-    h2 {
-      color: #12304a;
-      border-bottom: 2px solid #dce5ed;
-      padding-bottom: 8px;
-    }
-
-    a {
-      color: #1769aa;
-    }
-
-    footer {
-      background: #12304a;
-      color: white;
-      text-align: center;
-      padding: 25px;
-    }
-
-    @media(max-width:600px) {
-      header h1 { font-size: 28px; }
-      nav a {
-        display: inline-block;
-        margin: 5px;
-        font-size: 14px;
-      }
-      section { padding: 20px; }
-    }
-  </style>
+  <meta name="description" content="Academic portfolio of MD. Shamim Gazi, Master's student in Preventive Veterinary Medicine at Chungbuk National University, South Korea.">
+  <meta name="theme-color" content="#102b46">
+  <title>MD. Shamim Gazi | Veterinary Parasitology</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/style.css">
+  <script defer src="assets/script.js"></script>
 </head>
-
 <body>
+  <a class="skip-link" href="#main">Skip to content</a>
 
-<header>
-  <h1>MD. Shamim Gazi</h1>
-  <p>Master's Student | Veterinary Parasitology</p>
-  <p>Chungbuk National University, South Korea</p>
-</header>
+  <header class="site-header">
+    <div class="nav-wrap">
+      <a class="brand" href="#home" aria-label="MD. Shamim Gazi home">
+        <span class="brand-mark">SG</span>
+        <span class="brand-name">MD. Shamim Gazi</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact" class="nav-contact">Contact</a>
+      </nav>
+    </div>
+  </header>
 
-<nav>
-  <a href="#about">About</a>
-  <a href="#education">Education</a>
-  <a href="#research">Research</a>
-  <a href="#skills">Skills</a>
-  <a href="#contact">Contact</a>
-</nav>
+  <main id="main">
+    <section class="hero section-shell" id="home">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="eyebrow-dot"></span> ACADEMIC PORTFOLIO</div>
+        <h1>MD. Shamim<br><span>Gazi</span></h1>
+        <p class="hero-role">Master’s Student in Preventive Veterinary Medicine</p>
+        <p class="hero-affiliation">College of Veterinary Medicine · Chungbuk National University · South Korea</p>
+        <p class="hero-intro">
+          I am a veterinary graduate and GKS scholar interested in veterinary parasitology,
+          molecular epidemiology, host–parasite interactions and zoonotic diseases.
+          My goal is to contribute to animal and public health through research and a One Health approach.
+        </p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#research">Explore my research <span aria-hidden="true">↗</span></a>
+          <a class="button button-secondary" href="#contact">Get in touch</a>
+        </div>
+        <div class="hero-links">
+          <!-- TODO: Replace # with your real profile URLs. Remove links you do not use. -->
+          <a href="https://scholar.google.com/" target="_blank" rel="noopener noreferrer">Google Scholar <span>↗</span></a>
+          <a href="https://orcid.org/" target="_blank" rel="noopener noreferrer">ORCID <span>↗</span></a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn <span>↗</span></a>
+        </div>
+      </div>
 
-<main>
+      <aside class="hero-card" aria-label="Academic profile summary">
+        <div class="portrait-placeholder" role="img" aria-label="Photo placeholder with initials SG">
+          <span>SG</span>
+          <small>ADD YOUR PHOTO</small>
+        </div>
+        <div class="hero-card-body">
+          <p class="card-kicker">CURRENT AFFILIATION</p>
+          <h2>Laboratory of Veterinary Parasitology</h2>
+          <p>College of Veterinary Medicine<br>Chungbuk National University</p>
+          <div class="card-divider"></div>
+          <div class="status-row"><span class="status-dot"></span> Master’s research student</div>
+          <p class="location-line">Cheongju, Republic of Korea</p>
+        </div>
+      </aside>
+      <div class="hero-decoration hero-decoration-one"></div>
+      <div class="hero-decoration hero-decoration-two"></div>
+    </section>
 
-<section id="about">
-  <h2>About Me</h2>
-  <p>
-    I am a Master’s student in Preventive Veterinary Medicine
-    at Chungbuk National University, South Korea.
-    My academic interests include veterinary parasitology,
-    molecular epidemiology, zoonoses and One Health.
-  </p>
-  <p>
-    I am interested in understanding host-parasite interactions,
-    infectious diseases and their implications for animal
-    and public health.
-  </p>
-</section>
+    <section class="quick-facts section-shell" aria-label="Profile highlights">
+      <div><strong>2025–2028</strong><span>Master’s programme*</span></div>
+      <div><strong>DVM</strong><span>Bangladesh Agricultural University</span></div>
+      <div><strong>GKS</strong><span>Global Korea Scholarship scholar</span></div>
+      <div><strong>One Health</strong><span>Research perspective</span></div>
+    </section>
 
-<section id="education">
-  <h2>Education</h2>
-  <h3>Master's in Preventive Veterinary Medicine</h3>
-  <p>Chungbuk National University, South Korea | 2025–2028 (expected)</p>
+    <section class="content-section section-shell" id="about">
+      <div class="section-heading">
+        <p class="section-label">01 / ABOUT</p>
+        <h2>Curiosity for parasites.<br><span>Commitment to health.</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-main">
+          <p class="lead">
+            I am a Doctor of Veterinary Medicine graduate from Bangladesh Agricultural University
+            and currently pursuing a Master’s degree in Preventive Veterinary Medicine at
+            Chungbuk National University, South Korea, as a Global Korea Scholarship scholar.
+          </p>
+          <p>
+            My academic interests centre on veterinary parasitology and infectious diseases,
+            with particular interest in molecular identification, epidemiology, host–parasite
+            relationships and the zoonotic implications of pathogens. I am motivated by research
+            that connects laboratory investigation with practical animal and public-health needs.
+          </p>
+          <p>
+            I am developing my research experience in parasite molecular biology, including
+            work involving goat coccidia and molecular characterization of <em>Eimeria</em>.
+            I am also interested in immunology, macrophage biology and immune responses to infection.
+          </p>
+        </div>
+        <aside class="quote-card">
+          <span class="quote-mark">“</span>
+          <p>Advancing animal and public health through molecular research and a One Health perspective.</p>
+          <span class="quote-caption">RESEARCH MOTIVATION</span>
+        </aside>
+      </div>
+    </section>
 
-  <h3>Doctor of Veterinary Medicine (DVM)</h3>
-  <p>Bangladesh Agricultural University, Bangladesh | 2019–2025</p>
-  <p>CGPA: 3.603 / 4.00</p>
-</section>
+    <section class="content-section research-section" id="research">
+      <div class="section-shell">
+        <div class="section-heading">
+          <p class="section-label">02 / RESEARCH</p>
+          <h2>Research interests &amp; projects</h2>
+          <p class="section-subtitle">Areas I am exploring and developing through postgraduate research.</p>
+        </div>
+        <div class="interest-grid">
+          <article class="interest-card">
+            <span class="interest-number">01</span>
+            <div class="interest-icon">⌬</div>
+            <h3>Veterinary Parasitology</h3>
+            <p>Parasite identification, diversity, molecular characterization and host–parasite relationships.</p>
+          </article>
+          <article class="interest-card">
+            <span class="interest-number">02</span>
+            <div class="interest-icon">⌁</div>
+            <h3>Molecular Epidemiology</h3>
+            <p>Molecular detection, sequence-based identification and epidemiological investigation of pathogens.</p>
+          </article>
+          <article class="interest-card">
+            <span class="interest-number">03</span>
+            <div class="interest-icon">◎</div>
+            <h3>Immunology &amp; Infection</h3>
+            <p>Host immune responses, macrophage biology and mechanisms involved in infectious disease.</p>
+          </article>
+          <article class="interest-card">
+            <span class="interest-number">04</span>
+            <div class="interest-icon">✳</div>
+            <h3>Zoonoses &amp; One Health</h3>
+            <p>Understanding connections between animal, human and environmental health.</p>
+          </article>
+        </div>
 
-<section id="research">
-  <h2>Research Interests</h2>
-  <ul>
-    <li>Veterinary Parasitology</li>
-    <li>Molecular Epidemiology</li>
-    <li>Zoonotic Parasitic Diseases</li>
-    <li>Host–Parasite Interactions</li>
-    <li>Immunology and Infectious Diseases</li>
-    <li>One Health and Public Health</li>
-  </ul>
+        <div class="project-card">
+          <div class="project-topline"><span>ONGOING RESEARCH EXPERIENCE</span><span class="project-tag">Molecular parasitology</span></div>
+          <h3>Molecular identification and characterization of <em>Eimeria</em> in goats</h3>
+          <p>
+            Research activities include the examination of goat faecal samples, oocyst isolation,
+            molecular procedures and sequence-based identification. Work has included cloning
+            of cox1 target fragments and preparation for sequence analysis.
+          </p>
+          <div class="project-keywords"><span>Goat coccidia</span><span>Oocyst isolation</span><span>cox1</span><span>Sequence analysis</span></div>
+          <p class="project-note">Project description is a summary of current research activities; update it as the study progresses and results become available.</p>
+        </div>
 
-  <h3>Current Research</h3>
-  <p>
-    Molecular identification and characterization
-    of Eimeria species in goats.
-  </p>
-</section>
+        <div class="project-card project-card-light">
+          <div class="project-topline"><span>PREVIOUS RESEARCH INTEREST</span><span class="project-tag">One Health</span></div>
+          <h3>Avian influenza viruses in Bangladesh</h3>
+          <p>
+            Previous research experience and academic interest included the molecular epidemiology
+            and zoonotic potential of avian influenza viruses circulating in Bangladesh, considered
+            through a One Health approach.
+          </p>
+        </div>
+      </div>
+    </section>
 
-<section id="skills">
-  <h2>Research Skills</h2>
-  <ul>
-    <li>DNA extraction and PCR</li>
-    <li>Gel electrophoresis</li>
-    <li>Molecular cloning</li>
-    <li>Parasite identification</li>
-    <li>Sequence analysis and BLAST</li>
-    <li>Phylogenetic analysis</li>
-  </ul>
-</section>
+    <section class="content-section section-shell" id="experience">
+      <div class="section-heading">
+        <p class="section-label">03 / EXPERIENCE</p>
+        <h2>Academic &amp; leadership experience</h2>
+      </div>
+      <div class="timeline">
+        <article class="timeline-item">
+          <div class="timeline-date">2025 — PRESENT</div>
+          <div class="timeline-content">
+            <span class="timeline-type">POSTGRADUATE STUDY</span>
+            <h3>Master’s student · Preventive Veterinary Medicine</h3>
+            <p class="timeline-place">Chungbuk National University, Republic of Korea</p>
+            <p>Postgraduate study and research development in veterinary medicine, with a focus on veterinary parasitology.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">2024 — 2025</div>
+          <div class="timeline-content">
+            <span class="timeline-type">UNDERGRADUATE RESEARCH</span>
+            <h3>Research experience · Virology</h3>
+            <p class="timeline-place">Bangladesh Agricultural University, Bangladesh</p>
+            <p>Research exposure in virology and molecular approaches relevant to avian influenza and One Health.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">2024</div>
+          <div class="timeline-content">
+            <span class="timeline-type">STUDENT LEADERSHIP</span>
+            <h3>President · BADHAN voluntary blood donors’ organization</h3>
+            <p class="timeline-place">Bangladesh Agricultural University unit</p>
+            <p>Led student volunteer activities and initiatives promoting voluntary blood donation and awareness.</p>
+          </div>
+        </article>
+        <article class="timeline-item">
+          <div class="timeline-date">UNDERGRADUATE YEARS</div>
+          <div class="timeline-content">
+            <span class="timeline-type">STUDENT ENGAGEMENT</span>
+            <h3>Science communication &amp; volunteering</h3>
+            <p class="timeline-place">Bangladesh Agricultural University</p>
+            <p>Participated in student-led science, educational and community activities, including science-club engagement.</p>
+          </div>
+        </article>
+      </div>
+    </section>
 
-<section id="contact">
-  <h2>Contact</h2>
-  <p>Email: YOUR_EMAIL_ADDRESS</p>
-  <p>
-    <a href="https://scholar.google.com/"
-       target="_blank">Google Scholar</a>
-  </p>
-  <p>
-    <a href="https://www.linkedin.com/"
-       target="_blank">LinkedIn</a>
-  </p>
-  <p>
-    <a href="https://github.com/"
-       target="_blank">GitHub</a>
-  </p>
-</section>
+    <section class="content-section education-section" id="education">
+      <div class="section-shell">
+        <div class="section-heading">
+          <p class="section-label">04 / EDUCATION</p>
+          <h2>Academic background</h2>
+        </div>
+        <div class="education-grid">
+          <article class="education-card featured-education">
+            <div class="education-year">2025 — 2028 · EXPECTED</div>
+            <div class="education-badge">MSc</div>
+            <h3>Master’s in Preventive Veterinary Medicine</h3>
+            <p>College of Veterinary Medicine</p>
+            <strong>Chungbuk National University</strong>
+            <span>Republic of Korea</span>
+          </article>
+          <article class="education-card">
+            <div class="education-year">2019 — 2025</div>
+            <div class="education-badge">DVM</div>
+            <h3>Doctor of Veterinary Medicine</h3>
+            <p>Faculty of Veterinary Science</p>
+            <strong>Bangladesh Agricultural University</strong>
+            <span>Mymensingh, Bangladesh</span>
+            <div class="academic-score">CGPA: 3.603 / 4.00</div>
+          </article>
+        </div>
+        <div class="achievement-strip">
+          <div><span class="achievement-icon">✦</span><div><strong>Global Korea Scholarship</strong><small>GKS-G scholar · Republic of Korea</small></div></div>
+          <div><span class="achievement-icon">한</span><div><strong>TOPIK Level 4</strong><small>Korean language proficiency</small></div></div>
+        </div>
+      </div>
+    </section>
 
-</main>
+    <section class="content-section section-shell" id="skills">
+      <div class="section-heading">
+        <p class="section-label">05 / RESEARCH TOOLKIT</p>
+        <h2>Laboratory &amp; analytical skills</h2>
+        <p class="section-subtitle">Techniques and tools I have worked with or am developing. This list should reflect your independently verified proficiency.</p>
+      </div>
+      <div class="skills-layout">
+        <div class="skill-group">
+          <h3>Molecular biology</h3>
+          <div class="skill-pills"><span>DNA extraction</span><span>Conventional PCR</span><span>Gel electrophoresis</span><span>Colony PCR</span><span>Molecular cloning</span><span>Sequencing workflow</span></div>
+        </div>
+        <div class="skill-group">
+          <h3>Parasitology</h3>
+          <div class="skill-pills"><span>Faecal examination</span><span>Oocyst isolation</span><span>Parasite morphology</span><span>Parasite identification</span></div>
+        </div>
+        <div class="skill-group">
+          <h3>Bioinformatics &amp; analysis</h3>
+          <div class="skill-pills"><span>BLAST</span><span>Sequence analysis</span><span>MEGA</span><span>Phylogenetic analysis</span></div>
+        </div>
+        <div class="skill-group">
+          <h3>Research themes</h3>
+          <div class="skill-pills"><span>Veterinary parasitology</span><span>Molecular epidemiology</span><span>Zoonoses</span><span>One Health</span><span>Immunology</span></div>
+        </div>
+      </div>
+    </section>
 
-<footer>
-  <p>© 2026 MD. Shamim Gazi | Academic Portfolio</p>
-  <p>Veterinary Parasitology | One Health</p>
-</footer>
+    <section class="content-section conference-section">
+      <div class="section-shell conference-inner">
+        <div>
+          <p class="section-label">06 / SCIENTIFIC ENGAGEMENT</p>
+          <h2>Conferences, training<br>&amp; academic activities</h2>
+          <p>
+            I value scientific exchange, research training and collaboration across disciplines.
+            This section can be expanded with conference names, dates, presentation titles,
+            workshops and certificates.
+          </p>
+        </div>
+        <div class="conference-placeholder">
+          <span class="conference-symbol">＋</span>
+          <h3>More activities coming soon</h3>
+          <p>Add verified conference participation, posters, oral presentations and training programmes here.</p>
+        </div>
+      </div>
+    </section>
 
+    <section class="contact-section" id="contact">
+      <div class="section-shell contact-inner">
+        <p class="section-label">07 / CONTACT</p>
+        <h2>Let’s connect and<br><span>exchange ideas.</span></h2>
+        <p class="contact-copy">I welcome academic connections, research discussions and opportunities for scientific collaboration.</p>
+        <!-- TODO: Replace the email below with your professional email address. -->
+        <a class="button button-white" href="mailto:YOUR_EMAIL@example.com">YOUR_EMAIL@example.com <span>↗</span></a>
+        <div class="contact-socials">
+          <a href="https://scholar.google.com/" target="_blank" rel="noopener noreferrer">Google Scholar ↗</a>
+          <a href="https://orcid.org/" target="_blank" rel="noopener noreferrer">ORCID ↗</a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer">LinkedIn ↗</a>
+          <a href="https://github.com/mdshamimgazi009" target="_blank" rel="noopener noreferrer">GitHub ↗</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="section-shell footer-inner">
+      <a class="footer-brand" href="#home">MD. Shamim Gazi</a>
+      <p>Veterinary Parasitology · One Health · Research</p>
+      <p>© <span id="year">2026</span> MD. Shamim Gazi. All rights reserved.</p>
+    </div>
+  </footer>
 </body>
 </html>
